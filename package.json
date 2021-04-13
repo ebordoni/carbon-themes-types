@@ -1,24 +1,21 @@
 {
-    "private": true,
-    "name": "definitely-typed",
-    "version": "0.0.3",
-    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "private": false,
+    "name": "carbon-themes-types",
+    "version": "0.0.1",
+    "homepage": "https://github.com/ebordoni/carbon-themes-types",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+        "url": "git+https://github.com/ebordoni/carbon-themes-types.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+        "url": "https://github.com/ebordoni/carbon-themes-types/issues"
     },
     "engines": {
         "node": ">=7.8.0"
     },
     "scripts": {
         "compile-scripts": "tsc -p scripts",
-        "not-needed": "node scripts/not-needed.js",
-        "update-codeowners": "node scripts/update-codeowners.js",
-        "test-all": "node node_modules/@definitelytyped/dtslint-runner/dist/index.js --path .",
         "test": "dtslint types",
         "lint": "dtslint types",
         "prettier": "prettier"
